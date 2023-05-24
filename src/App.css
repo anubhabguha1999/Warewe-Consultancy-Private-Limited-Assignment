@@ -1,0 +1,61 @@
+.App{
+    background-color: aliceblue;
+    text-align: center;
+    
+}
+
+.form-div{
+    display: flex;
+    background-color: ghostwhite;
+    flex-direction: column;
+    row-gap: 2em;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}   
+
+.output-div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.2em;
+}
+
+.textarea{
+    width:20%;
+    height:10%;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 4px;
+    transition-duration: 0.4s; 
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+
+.custom-textarea {
+    width: 60%; 
+    height: 200px;
+    padding: 10px;
+    font-size: 25px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    resize: vertical;
+  }
+  
+  .custom-textarea:focus {
+    border-color: #4ca5af; 
+    outline: none; 
+  }
+  
